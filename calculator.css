@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(207, 193, 193);
+}
+header div{
+    background-color:rgba(29, 7, 53, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    font-size: 30px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    background-color: rgba(40, 11, 72, 0.8);
+    margin-right: 37%;
+    margin-left: 37%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 17%;
+}
+.input{
+    font-size: 20px;
+    padding: 5%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: none;
+    border-bottom: 3px solid navy;
+    background-color: rgb(153, 145, 145);
+    color: #fff;
+    text-align: right;
+}
+input:focus{
+    outline: none;
+}
+.row{
+    display: block;
+    padding: 1%;
+}
+.button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(206, 153, 20);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.op{
+    color: rgb(8, 8, 93);
+    
+    font-size: 28px;
+}
+#clear{
+    color: red;
+    background-color: rgb(185, 221, 253);
+    
+}
+#equal{
+    background-color:rgb(185, 221, 253) ;
+    color:rgb(8, 8, 93);
+    font-size: 28px;
+}
+#delete{
+    background-color: rgb(185, 221, 253);
+}
+#delete, #abs, #tan, #sin, #cos, #log,#fact{
+    font-size: 20px;
+}
